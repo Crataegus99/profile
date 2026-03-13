@@ -222,7 +222,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #4DA6FF;
+  background: #32CD32; 
+  /*changed background to green*/
 }
 #fh5co-features h2 {
   color: #fff;
