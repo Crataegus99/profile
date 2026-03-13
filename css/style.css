@@ -1292,4 +1292,13 @@ input[type="text"] {
   opacity: 0;
 }
 
+.expand-text span{
+  display:inline-block;
+  transition: transform 0.3s cubic-bezier(.2,.8,.2,1);
+}
+
+.expand-text span:hover{
+  transform: scale(1.6) translateY(-3px);
+}
+
 /*# sourceMappingURL=style.css.map */
