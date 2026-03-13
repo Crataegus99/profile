@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #4DA6FF;
+  background: #32CD32;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #4DA6FF;
+  background: #32CD32;
 }
 
 ::selection {
   color: #fff;
-  background: #4DA6FF;
+  background: #32CD32;
 }
 
 #fh5co-header,
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #32CD32 !important;
+  color: #4DA6FF !important;
   /* icon changed to blue */
 }
 #fh5co-features .feature-left .feature-copy {
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #4DA6FF;
+  background: #32CD32;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #4DA6FF;
+  background: #32CD32;
 }
 
 .fh5co-heading {
@@ -1113,7 +1113,7 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #4DA6FF;
+  background: #32CD32;
   color: #fff;
   border: 2px solid #4DA6FF;
 }
@@ -1127,7 +1127,7 @@ input[type="text"] {
   border: 2px solid #4DA6FF;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #4DA6FF;
+  background: #32CD32;
   color: #fff;
 }
 
