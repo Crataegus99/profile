@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-header,
 .fh5co-cover {
-    background-size: contain; /* fits entire image */
+    background-size: 100% 100%; /* fits entire image */
     background-repeat: no-repeat; /* prevents tiling */
     background-position: center center; /* centers image */
     height: 600px;
