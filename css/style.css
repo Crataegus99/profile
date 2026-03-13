@@ -258,8 +258,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FA0AFA !important;
-  /* icon changed to light purple */
+  color: #32CD32 !important;
+  /* icon changed to blue */
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
