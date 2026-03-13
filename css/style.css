@@ -91,13 +91,13 @@ h1, h2, h3, h4, h5, h6, figure {
 /* ===== Header / Banner ===== */
 #fh5co-header,
 .fh5co-cover {
-  background-color: transparent; 
-  background-size: contain;       /* ensures background fits, not zoomed */
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: relative; 
-  height: 600px; 
-  width: 100%; 
+  background-color: transparent;
+  background-size: 100% 100%; /* Stretch image to fit width and height */
+  background-attachment: scroll; /* optional: stops the fixed parallax effect */
+  background-position: center center; /* keep image centered */
+  position: relative;
+  height: 600px;
+  width: 100%;
 }
 
 #fh5co-header .overlay,
