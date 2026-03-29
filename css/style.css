@@ -1301,6 +1301,12 @@ input[type="text"] {
 
 /*# sourceMappingURL=style.css.map */
 
+/* ===== Mathstory Video Section ===== */
+.video-card {
+  display: block;
+  margin-bottom: 30px;
+}
+
 .video-thumb {
   position: relative;
   width: 100%;
@@ -1316,15 +1322,25 @@ input[type="text"] {
   transform: scale(1.05);
 }
 
-/* Dark overlay */
+/* Overlay */
 .overlay {
   position: absolute;
   bottom: 0;
   width: 100%;
   padding: 15px;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
   color: white;
   text-align: left;
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.overlay span {
+  font-size: 13px;
+  opacity: 0.9;
 }
 
 /* Play button */
