@@ -1380,3 +1380,12 @@ input[type="text"] {
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.25);
 }
+
+.project-thumb-img {
+    width: 500px;
+    max-width: 90%;
+    border-radius: 12px;
+    border: 3px solid rgba(255,255,255,0.8);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    margin-bottom: 30px;
+}
