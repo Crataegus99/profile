@@ -1360,11 +1360,23 @@ input[type="text"] {
   opacity: 1;
 }
 
-/* ===== Project Pages ===== */
-.project-page .slide-img {
-    width: 95%;
-    margin: 60px auto;
-    display: block;
+/* Remove Bootstrap row side offsets */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Remove container padding */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Slide styling */
+.slide-img {
+    width: 95%;              /* control how wide */
+    margin: 60px auto;       /* center horizontally */
+    display: block;          /* REQUIRED for centering */
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.25);
 }
